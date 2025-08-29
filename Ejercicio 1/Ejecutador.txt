@@ -1,0 +1,10 @@
+//KC03CBFH JOB CLASS=A,MSGCLASS=O,MSGLEVEL=(1,1),NOTIFY=&SYSUID,     
+//             TIME=(,5)    ,RESTART=STEP2                                                         
+//STEP2    EXEC PGM=HOLAMUND                                         
+//STEPLIB  DD DSN=KC03CBF.CURSOS.PGMLIB,DISP=SHR                     
+//*                                                                  
+//SYSOUT   DD SYSOUT=*                                               
+//SYSUDUMP DD SYSOUT=*                                               
+//SYSIN    DD SYSOUT=*                                               
+//*                                                                  
+//                                                                   
