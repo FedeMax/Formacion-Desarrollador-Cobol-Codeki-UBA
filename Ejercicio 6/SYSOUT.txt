@@ -1,0 +1,87 @@
+********************************* Top of Data *********************************
+---------------------------------------------                                  
+ ERRORES ENCONTRADOS EN EL DOCUMENTO  :  DU                                    
+ NUMERO DE DOCUMENTO                  :  00126789000                           
+ EL AñO DEBE SER MAYOR A 2024                                                  
+ AñO INGRESADO : 2024                                                          
+ FECHA NO VALIDA                                                               
+ DIA INGRESADO : 43                                                            
+---------------------------------------------                                  
+---------------------------------------------                                  
+ ERRORES ENCONTRADOS EN EL DOCUMENTO  :  PA                                    
+ NUMERO DE DOCUMENTO                  :  90223373999                           
+ EL AñO DEBE SER MAYOR A 2024                                                  
+ AñO INGRESADO : 2011                                                          
+---------------------------------------------                                  
+---------------------------------------------                                  
+ ERRORES ENCONTRADOS EN EL DOCUMENTO  :  PA                                    
+ NUMERO DE DOCUMENTO                  :  00083333999                           
+ EL AñO DEBE SER MAYOR A 2024                                                  
+ AñO INGRESADO : 2024                                                          
+---------------------------------------------                                  
+---------------------------------------------                                  
+ ERRORES ENCONTRADOS EN EL DOCUMENTO  :  CC                                    
+ NUMERO DE DOCUMENTO                  :  00123333300                           
+ TIPO DOCUMENTO INVALIDO                                                       
+ NRO DE CUENTA NO VALIDO   :  05                                               
+ EL AñO DEBE SER MAYOR A 2024                                                  
+ AñO INGRESADO : 2024                                                          
+---------------------------------------------                                  
+---------------------------------------------                                  
+ ERRORES ENCONTRADOS EN EL DOCUMENTO  :  LD                                    
+ NUMERO DE DOCUMENTO                  :  00123449000                           
+ TIPO DOCUMENTO INVALIDO                                                       
+ NRO DE CUENTA NO VALIDO   :  06                                               
+ EL AñO DEBE SER MAYOR A 2024                                                  
+ AñO INGRESADO : 2024                                                          
+  FECHA NO VALIDA                                                               
+ DIA INGRESADO : 32                                                            
+---------------------------------------------                                  
+---------------------------------------------                                  
+ ERRORES ENCONTRADOS EN EL DOCUMENTO  :  DU                                    
+ NUMERO DE DOCUMENTO                  :  09888000000                           
+ EL AñO DEBE SER MAYOR A 2024                                                  
+ AñO INGRESADO : 2024                                                          
+---------------------------------------------                                  
+---------------------------------------------                                  
+ ERRORES ENCONTRADOS EN EL DOCUMENTO  :  DU                                    
+ NUMERO DE DOCUMENTO                  :  00188889000                           
+ EL AñO DEBE SER MAYOR A 2024                                                  
+ AñO INGRESADO : 2024                                                          
+---------------------------------------------                                  
+---------------------------------------------                                  
+ ERRORES ENCONTRADOS EN EL DOCUMENTO  :  DU                                    
+ NUMERO DE DOCUMENTO                  :  00022000160                           
+ EL AñO DEBE SER MAYOR A 2024                                                  
+ AñO INGRESADO : 2023                                                          
+---------------------------------------------                                  
+---------------------------------------------                                  
+ ERRORES ENCONTRADOS EN EL DOCUMENTO  :  PE                                    
+ NUMERO DE DOCUMENTO                  :  00777789000                           
+ EL AñO DEBE SER MAYOR A 2024                                                  
+ AñO INGRESADO : 2023                                                          
+---------------------------------------------                                  
+---------------------------------------------                                  
+ ERRORES ENCONTRADOS EN EL DOCUMENTO  :  DU                                    
+ NUMERO DE DOCUMENTO                  :  00023000190                           
+ EL AñO DEBE SER MAYOR A 2024                                                  
+ AñO INGRESADO : 2009                                                          
+ FECHA NO VALIDA                                                               
+ DIA INGRESADO : 32                                                            
+---------------------------------------------                                  
+---------------------------------------------                                  
+ ERRORES ENCONTRADOS EN EL DOCUMENTO  :  DU                                     
+ NUMERO DE DOCUMENTO                  :  00023000190                            
+ EL AñO DEBE SER MAYOR A 2024                                                   
+ AñO INGRESADO : 2009                                                           
+ FECHA NO VALIDA                                                                
+ DIA INGRESADO : 32                                                             
+---------------------------------------------                                   
+******************************                                                  
+ CANTIDAD DE REGISTROS LEIDOS       :  00013                                    
+******************************                                                  
+ CANTIDAD DE REGISTROS GRABADOS     :  00003                                    
+******************************                                                  
+ CANTIDAD DE ERRORES EN EL REGISTRO :  00019                                    
+******************************                                                  
+******************************** Bottom of Data ********************************

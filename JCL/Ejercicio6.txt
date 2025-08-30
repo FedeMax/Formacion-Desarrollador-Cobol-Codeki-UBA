@@ -1,0 +1,23 @@
+//KC03CBFC JOB CLASS=A,MSGCLASS=O,MSGLEVEL=(1,1),NOTIFY=&SYSUID,        
+//             TIME=(,5)                                                
+//************************************                                  
+//* EJEMPLO EJECUCION JOB BATCH      *                                  
+//************************************                                  
+//*                                                                     
+//STEP1    EXEC PGM=IDCAMS,COND=(8,LT)                                  
+//SYSPRINT DD SYSOUT=*                                                  
+//SYSIN    DD *                                                         
+     DELETE   KC03CBF.ARCHIVOS.SALIDA1                                  
+//*                                                                     
+//************************************                                  
+//* EJECUCION PROGRAMA PGMCORTE      *                                  
+//************************************                                  
+//STEP2    EXEC PGM=PGMVACBF                                            
+//STEPLIB  DD DSN=KC03CBF.CURSOS.PGMLIB,DISP=SHR                        
+//DDENTRA  DD DSN=KC02788.ALU9999.NOVCLIEN,DISP=SHR                     
+//DDSALI   DD DSN=KC03CBF.ARCHIVOS.SALIDA1,DISP=(,CATLG),               
+//            UNIT=SYSDA,VOL=SER=ZASWO1,                                
+//            DCB=(LRECL=55,BLKSIZE=0,RECFM=FB),                        
+//            SPACE=(TRK,(1,1),RLSE)                                    
+//SYSOUT   DD DSN=KC03CBF.SYSOUT,DISP=SHR                               
+//SYSUDUMP DD SYSOUT=*                                                  
