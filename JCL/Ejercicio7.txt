@@ -1,0 +1,54 @@
+***************************** Top of Data ******************************
+//KC03AXXA JOB CLASS=A,MSGCLASS=O,MSGLEVEL=(1,1),NOTIFY=&SYSUID,        
+//             TIME=(,5) ,RESTART=STEP4                                 
+//************************************                                  
+//* EJEMPLO EJECUCION JOB BATCH      *                                  
+//************************************                                  
+//*                                                                     
+//STEP1    EXEC PGM=IDCAMS,COND=(8,LT)                                  
+//SYSPRINT DD SYSOUT=*                                                  
+//SYSIN    DD *                                                         
+     DELETE   KC03CBF.ALU9999.CLIENTE.CLAS                              
+     DELETE   KC03CBF.ALU9999.MOVIMICC.CLAS                             
+     SET MAXCC=0                                                        
+//*                                                                     
+//*********************************                                     
+//*     SORT POR CLIENTE          *                                     
+//*********************************                                     
+//STEP2       EXEC PGM=SORT,COND=EVEN                                   
+//SYSOUT    DD SYSOUT=*                                                 
+//SORTIN    DD DSN=KC02788.ALU9999.CLIENTE,DISP=SHR                     
+//SORTOUT   DD DSN=KC03CBF.ALU9999.CLIENTE.CLAS,DISP=(,CATLG),          
+//          UNIT=SYSDA,VOL=SER=ZASWO1,                                  
+//          DCB=(LRECL=30,BLKSIZE=3000,RECFM=FB),                       
+//          SPACE=(TRK,(1,1),RLSE)                                      
+//SYSIN     DD *                                                        
+ SORT       FORMAT=BI,FIELDS=(10,5,A)                                   
+//*                                                                     
+//*********************************                                     
+//*     SORT POR CLIENTE          *                                     
+//*********************************                                     
+//STEP3       EXEC PGM=SORT,COND=EVEN                                   
+//SYSOUT    DD SYSOUT=*                                                 
+//SORTIN    DD DSN=KC02788.ALU9999.MOVIMICC,DISP=SHR                    
+//SORTOUT   DD DSN=KC03CBF.ALU9999.MOVIMICC.CLAS,DISP=(,CATLG),         
+//          UNIT=SYSDA,VOL=SER=ZASWO1,                                  
+//          DCB=(LRECL=80,BLKSIZE=8000,RECFM=FB),                       
+ //          SPACE=(TRK,(1,1),RLSE)                                      
+ //SYSIN     DD *                                                        
+  SORT       FORMAT=BI,FIELDS=(1,5,A)                                    
+ //*                                                                     
+ //*                                                                     
+ //************************************                                  
+ //* EJECUCION PROGRAMA PGMAPAR       *                                  
+ //************************************                                  
+ //STEP4    EXEC PGM=PGMAPCBF                                            
+ //STEPLIB  DD DSN=KC03CBF.CURSOS.PGMLIB,DISP=SHR                        
+ //DDCLIEN  DD DSN=KC03CBF.ALU9999.CLIENTE.CLAS,DISP=SHR                 
+ //DDMOVIM  DD DSN=KC03CBF.ALU9999.MOVIMICC.CLAS,DISP=SHR                
+ //SYSOUT   DD SYSOUT=*,OUTLIM=1000                                      
+ //SYSUDUMP DD SYSOUT=*                                                  
+ //SYSIN    DD *                                                         
+ 240430                                                                  
+ //                                                                      
+ **************************** Bottom of Data ****************************

@@ -1,0 +1,134 @@
+********************************* TOP OF DATA **********************************
+ ACTUALIZANDO CLIENTE                                                           
+ ACTUALIZANDO CLIENTE                                                           
+ ACTUALIZANDO CLIENTE                                                           
+ ACTUALIZANDO CLIENTE                                                           
+-------------------------                                                       
+ COINCIDENCIA ENCONTRADA                                                        
+ NR DE CLIENTE 0200000011 Y NR DE MOVIM 0200000011                              
+-------------------------                                                       
+ ACTUALIZANDO CLIENTE                                                           
+-------------------------                                                       
+ COINCIDENCIA ENCONTRADA                                                        
+ NR DE CLIENTE 0200000012 Y NR DE MOVIM 0200000012                              
+-------------------------                                                       
+ ACTUALIZANDO CLIENTE                                                           
+-------------------------                                                       
+ COINCIDENCIA ENCONTRADA                                                        
+ NR DE CLIENTE 0200000013 Y NR DE MOVIM 0200000013                              
+-------------------------                                                       
+ ACTUALIZANDO CLIENTE                                                           
+-------------------------                                                       
+ COINCIDENCIA ENCONTRADA                                                        
+ NR DE CLIENTE 0200000014 Y NR DE MOVIM 0200000014                              
+-------------------------                                                       
+ ACTUALIZANDO CLIENTE                                                           
+-------------------------                                                       
+ COINCIDENCIA ENCONTRADA                                                        
+ NR DE CLIENTE 0200000015 Y NR DE MOVIM 0200000015                              
+-------------------------                                                       
+ ACTUALIZANDO CLIENTE                                                           
+ ACTUALIZANDO MOVIMIENTO                                                        
+ ACTUALIZANDO MOVIMIENTO                                                        
+ ACTUALIZANDO MOVIMIENTO                                                        
+ ACTUALIZANDO MOVIMIENTO                                                        
+-------------------------                                                       
+ COINCIDENCIA ENCONTRADA                                                        
+  NR DE CLIENTE 0200000020 Y NR DE MOVIM 0200000020                              
+-------------------------                                                       
+ ACTUALIZANDO CLIENTE                                                           
+-------------------------                                                       
+ COINCIDENCIA ENCONTRADA                                                        
+ NR DE CLIENTE 0200000021 Y NR DE MOVIM 0200000021                              
+-------------------------                                                       
+ ACTUALIZANDO CLIENTE                                                           
+-------------------------                                                       
+ COINCIDENCIA ENCONTRADA                                                        
+ NR DE CLIENTE 0200000022 Y NR DE MOVIM 0200000022                              
+-------------------------                                                       
+-------------------------                                                       
+ COINCIDENCIA ENCONTRADA                                                        
+ NR DE CLIENTE 0200000022 Y NR DE MOVIM 0200000022                              
+-------------------------                                                       
+-------------------------                                                       
+ COINCIDENCIA ENCONTRADA                                                        
+ NR DE CLIENTE 0200000022 Y NR DE MOVIM 0200000022                              
+-------------------------                                                       
+-------------------------                                                       
+ COINCIDENCIA ENCONTRADA                                                        
+ NR DE CLIENTE 0200000022 Y NR DE MOVIM 0200000022                              
+-------------------------                                                       
+-------------------------                                                       
+ COINCIDENCIA ENCONTRADA                                                        
+ NR DE CLIENTE 0200000022 Y NR DE MOVIM 0200000022                              
+-------------------------                                                       
+-------------------------                                                       
+ COINCIDENCIA ENCONTRADA                                                        
+ NR DE CLIENTE 0200000022 Y NR DE MOVIM 0200000022                              
+-------------------------                                                       
+-------------------------                                                       
+ COINCIDENCIA ENCONTRADA                                                        
+ NR DE CLIENTE 0200000022 Y NR DE MOVIM 0200000022                              
+-------------------------                                                       
+ ACTUALIZANDO CLIENTE                                                           
+-------------------------                                                       
+ COINCIDENCIA ENCONTRADA                                                        
+ NR DE CLIENTE 0200000023 Y NR DE MOVIM 0200000023                              
+-------------------------                                                       
+-------------------------                                                       
+ COINCIDENCIA ENCONTRADA                                                        
+ NR DE CLIENTE 0200000023 Y NR DE MOVIM 0200000023                              
+-------------------------                                                       
+-------------------------                                                       
+ COINCIDENCIA ENCONTRADA                                                        
+ NR DE CLIENTE 0200000023 Y NR DE MOVIM 0200000023                              
+-------------------------                                                       
+ ACTUALIZANDO CLIENTE                                                           
+ ACTUALIZANDO CLIENTE                                                           
+-------------------------                                                       
+ COINCIDENCIA ENCONTRADA                                                        
+ NR DE CLIENTE 0200000025 Y NR DE MOVIM 0200000025                              
+-------------------------                                                       
+ ACTUALIZANDO CLIENTE                                                           
+-------------------------                                                       
+ COINCIDENCIA ENCONTRADA                                                        
+ NR DE CLIENTE 0200000026 Y NR DE MOVIM 0200000026                              
+-------------------------                                                       
+ ACTUALIZANDO CLIENTE                                                           
+-------------------------                                                       
+ COINCIDENCIA ENCONTRADA                                                        
+ NR DE CLIENTE 0200000027 Y NR DE MOVIM 0200000027                              
+-------------------------                                                       
+ ACTUALIZANDO CLIENTE                                                           
+ ACTUALIZANDO MOVIMIENTO                                                        
+ ACTUALIZANDO MOVIMIENTO                                                        
+-------------------------                                                       
+ COINCIDENCIA ENCONTRADA                                                        
+ NR DE CLIENTE 0200000030 Y NR DE MOVIM 0200000030                              
+-------------------------                                                       
+ ACTUALIZANDO CLIENTE                                                           
+ ACTUALIZANDO CLIENTE                                                           
+ ACTUALIZANDO CLIENTE                                                           
+ ACTUALIZANDO CLIENTE                                                           
+ ACTUALIZANDO CLIENTE                                                           
+ ACTUALIZANDO CLIENTE                                                           
+ ACTUALIZANDO CLIENTE                                                           
+ ACTUALIZANDO CLIENTE                                                           
+ ACTUALIZANDO CLIENTE                                                           
+ ACTUALIZANDO CLIENTE                                                           
+ ACTUALIZANDO CLIENTE                                                           
+ ACTUALIZANDO CLIENTE                                                           
+ ACTUALIZANDO CLIENTE                                                           
+ ACTUALIZANDO CLIENTE                                                           
+ ACTUALIZANDO CLIENTE                                                           
+ ACTUALIZANDO CLIENTE                                                           
+ ACTUALIZANDO CLIENTE                                                           
+-------------------------                                                       
+***************************************                                         
+ CLIENTES LEIDOS             :  034                                             
+***************************************                                         
+ MOVIMIENTOS   LEIDOS        :  027                                             
+***************************************                                         
+ COINCIDENCIAS ENCONTRADAS   :  021                                             
+***************************************                                         
+******************************** BOTTOM OF DATA ********************************
