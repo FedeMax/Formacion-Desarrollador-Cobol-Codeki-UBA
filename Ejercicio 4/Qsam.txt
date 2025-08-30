@@ -1,0 +1,24 @@
+DU00011200300JORGE ALBERTO PEREZ           SOLTERO   M                 
+CI00012345678FLORENCIA ALVAREZ             CASADO    O                 
+PA00008990099TINA TURNER                   VIUDO     F                 
+PE00007888899ROBERTA FLACK                 DIVORCIADOF                 
+DU00031200300LUIS MIGUEL                   SOLTERO   M                 
+DU00012545678CRISTIAN CASTRO               SOLTERO   M                 
+DU00008790099JULIAN ALBERTO FERRO          CASADO    M                 
+DU00009888899OCTAVIO BENAVIDEZ             CASADO    M                 
+DU00000000111MARCELA TINELLI               SOLTERO   F                 
+CI00012445678PEQUI SWARTZ                  CASADO    F                 
+PA00008995599JORGE ALAN                    VIUDO     F                 
+PE00007845699CECILIA BELLLO                DIVORCIADOF                 
+PE00032130300LUIS TUTTE                    CASADO    M                 
+PE00000000333AGUSTIN DELFINO               SOLTERO   M                 
+PE00008790099JULIAN ALBERTO FERRO          CASADO    M                 
+DU00009888899OCTAVIO BENAVIDEZ             CASADO    M                 
+DU00033200300MARCELA TINELLI               SOLTERO   F                 
+CI00012445678PEQUI SWARTZ                  CASADO    F                 
+PA00008995599ANTONIA RATTIN                VIUDO     F                 
+PE00007845699CECILIA BELLLO                DIVORCIADOF                 
+PE00032130300LUIS TUTTE                    SOLTERO   M                 
+PE00012445678AGUSTIN DELFINO               SOLTERO   M                 
+PA00028790099FERMIN PEPINILLO              CASADO    M                 
+PA00009333399BENEDICTO PAPA                CASADO    M                 

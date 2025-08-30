@@ -1,0 +1,25 @@
+//KC03XXXC JOB CLASS=A,MSGCLASS=O,MSGLEVEL=(1,1),NOTIFY=&SYSUID,        
+//             TIME=(,5)                                                
+//*                                                                     
+//STEP1    EXEC PGM=IDCAMS,COND=(8,LT)                                  
+//SYSPRINT DD SYSOUT=*                                                  
+//SYSIN    DD *                                                         
+     DELETE   KC03CBF.SUCUR.CLAS                                        
+     SET MAXCC = 0                                                      
+//*                                                                     
+//STEP2       EXEC PGM=SORT,COND=EVEN                                   
+//SYSOUT    DD SYSOUT=*                                                 
+//SORTIN    DD DSN=KC02788.ALU9999.CURSOS.CORTE,DISP=SHR                
+//SORTOUT   DD DSN=KC03CBF.SUCUR.CLAS,DISP=(,CATLG),                    
+//          UNIT=SYSDA,VOL=SER=ZASWO1,                                  
+//          DCB=(LRECL=30,BLKSIZE=3000,RECFM=FB),                       
+//          SPACE=(TRK,(1,1),RLSE)                                      
+//SYSIN     DD *                                                        
+ SORT       FORMAT=BI,FIELDS=(1,2,A)                                    
+//*                                                                     
+//STEP4    EXEC PGM=EJERCI02                                            
+//STEPLIB  DD DSN=KC03CBF.CURSOS.PGMLIB,DISP=SHR                        
+//DDENTRA  DD DSN=KC03CBF.SUCUR.CLAS,DISP=SHR                           
+//SYSOUT   DD SYSOUT=*                                                  
+//SYSUDUMP DD SYSOUT=*                                                  
+//SYSIN    DD SYSOUT=*                                                  
