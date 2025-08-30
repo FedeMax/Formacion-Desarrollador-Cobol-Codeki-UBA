@@ -1,0 +1,32 @@
+********************************* TOP OF DATA **********************************
+CODIGO DE PRODUCTO 01                                                           
+DENOMINACION PRODUCTO UNO          00000100                                     
+PRECIO NO ENCONTRADO                                                            
+CODIGO DE PRODUCTO 20                                                           
+DENOMINACION PRODUCTO VEINTE       00000200                                     
+PRECIO NO ENCONTRADO                                                            
+CODIGO DE PRODUCTO 30                                                           
+DENOMINACION PRODUCTO TREINTA      00000300                                     
+PRECIO NO ENCONTRADO                                                            
+CODIGO DE PRODUCTO 40                                                           
+DENOMINACION PRODUCTO CUARENTA     00000400                                     
+PRECIO NO ENCONTRADO                                                            
+CODIGO DE PRODUCTO 50                                                           
+DENOMINACION PRODUCTO CINCUENTA    00000500                                     
+PRECIO NO ENCONTRADO                                                            
+CODIGO DE PRODUCTO 60                                                           
+DENOMINACION PRODUCTO SESENTA      00000600                                     
+PRECIO NO ENCONTRADO                                                            
+CODIGO DE PRODUCTO 80                                                           
+DENOMINACION PRODUCTO OCHENTA      00000700                                     
+PRECIO NO ENCONTRADO                                                            
+CODIGO DE PRODUCTO 91                                                           
+DENOMINACION PRODUCTO NOVENTA Y 1  00000900                                     
+PRECIO NO ENCONTRADO                                                            
+CODIGO DE PRODUCTO 93                                                           
+DENOMINACION PRODUCTO NOVENTA Y 3  00001000                                     
+PRECIO NO ENCONTRADO                                                            
+CODIGO DE PRODUCTO 98                                                           
+DENOMINACION PRODUCTO NOVENTA Y 8  00001200                                     
+PRECIO NO ENCONTRADO                                                            
+******************************** BOTTOM OF DATA ********************************
