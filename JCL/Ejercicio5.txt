@@ -1,0 +1,34 @@
+//KC03XXXC JOB CLASS=A,MSGCLASS=O,MSGLEVEL=(1,1),NOTIFY=&SYSUID,        
+//             TIME=(,5)                                                
+//************************************                                  
+//* EJEMPLO EJECUCION JOB BATCH      *                                  
+//************************************                                  
+//*                                                                     
+//STEP1    EXEC PGM=IDCAMS,COND=(8,LT)                                  
+//SYSPRINT DD SYSOUT=*                                                  
+//SYSIN    DD *                                                         
+     DELETE   KC03CBF.CLICOB.CLAS                                       
+     SET MAXCC = 0                                                      
+//*                                                                     
+//*********************************                                     
+//*     SORT POR SUC              *                                     
+//*********************************                                     
+//STEP2       EXEC PGM=SORT,COND=EVEN                                   
+//SYSOUT    DD SYSOUT=*                                                 
+//SORTIN    DD DSN=KC02788.ALU9999.CLICOB,DISP=SHR                      
+//SORTOUT   DD DSN=KC03CBF.CLICOB.CLAS,DISP=(,CATLG),                   
+//          UNIT=SYSDA,VOL=SER=ZASWO1,                                  
+//          DCB=(LRECL=93,BLKSIZE=0,RECFM=FB),                          
+//          SPACE=(TRK,(1,1),RLSE)                                      
+//SYSIN     DD *                                                        
+ SORT       FORMAT=BI,FIELDS=(44,10,A)                                  
+//*                                                                     
+//************************************                                  
+//* EJECUCION PROGRAMA PGM2CXXX      *                                  
+//************************************                                  
+//STEP4    EXEC PGM=PGMC1CBF                                            
+//STEPLIB  DD DSN=KC03CBF.CURSOS.PGMLIB,DISP=SHR                        
+//DDENTRA  DD DSN=KC03CBF.CLICOB.CLAS,DISP=SHR                          
+//SYSOUT   DD SYSOUT=*                                                  
+//SYSUDUMP DD SYSOUT=*                                                  
+//SYSIN    DD SYSOUT=*                                                  
