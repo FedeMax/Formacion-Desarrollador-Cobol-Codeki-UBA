@@ -1,0 +1,27 @@
+---------+---------+---------+---------+---------+---------+---------+---------+
+TIPDOC         NRODOC  NROCLI  NOMAPE                          FECNAC      SEXO 
+---------+---------+---------+---------+---------+---------+---------+---------+
+DU               111.     10.  AMASO FLORES JUANA INES         1960-04-15  F    
+DU               135.     11.  COMOMIRO ESTEBAN JOSE           1985-07-23  M    
+DU               345.     12.  FIORINO MARIA FLORENCIA         1976-05-31  F    
+DU               555.     13.  PERENCIO CARMEN                 1987-06-23  F    
+DU               567.     14.  FLORES INES                     1956-07-23  F    
+DU               666.     15.  PAZ JUAN PEDRO                  2001-03-12  M    
+PA               234.     16.  PERA FEDERICO                   1999-02-28  M    
+PA               333.     17.  PACIENCIA NOEMI                 2002-01-26  O    
+PA               456.     18.  PRIETO JOSE                     2003-09-28  O    
+PA               567.     19.  FERNANDEZ MIRANDA               1989-10-13  O    
+PE               234.     20.  PEREZ MARCELA                   1999-11-11  O    
+PE               456.     21.  PRUDENCIO MARIA JOSE            1989-11-27  F    
+PE               789.     22.  EQUINOCCIO JACINTO              1977-12-29  M    
+PE               999.     23.  PEREYRA LUCENA MARTIN           2002-01-27  M    
+DU              1111.      1.  PEREZ JUAN                      2000-10-25  F    
+DU       64233672871.      1.  LUIS MARIA BERTONI              2025-07-31  M    
+DU       64251253342.      2.  CARINA GRACIELA CLEMENZ         2025-07-31  F    
+DU       20373493806.    888.  RODRIGO PRUEBA                  1993-03-27  M    
+DU         186567890.    565.  CAROLINA, DANVERS               1975-12-05  F    
+LE         174567892.     26.  ESTEBAN, ROGERS                 1990-05-14  M    
+PA         186569890.    455.  SAMUEL, WILSON                  1985-08-20  M    
+DU         986557480.    501.  GUILLERMO, PUENTES              1978-12-05  M    
+PA         984556390.    503.  TOMAS, CRUCERO                  1983-07-12  M    
+PE         982356440.    502.  ESTEBAN, TRABAJOS               1995-02-11  M    
