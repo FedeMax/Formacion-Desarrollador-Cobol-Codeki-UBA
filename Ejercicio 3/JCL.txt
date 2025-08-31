@@ -1,8 +1,0 @@
-//KC03XXXC JOB CLASS=A,MSGCLASS=O,MSGLEVEL=(1,1),NOTIFY=&SYSUID,        
-//             TIME=(,5)                                                
-//STEP4    EXEC PGM=EJERCI03                                            
-//STEPLIB  DD DSN=KC03CBF.CURSOS.PGMLIB,DISP=SHR                        
-//DDENTRA  DD DSN=KC03CBF.CURSOS.CORTE,DISP=SHR                         
-//SYSOUT   DD SYSOUT=*                                                  
-//SYSUDUMP DD SYSOUT=*                                                  
-//SYSIN    DD SYSOUT=*                                                  

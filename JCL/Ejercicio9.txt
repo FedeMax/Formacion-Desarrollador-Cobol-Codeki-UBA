@@ -1,0 +1,30 @@
+***************************** Top of Data ******************************
+//KC03CBFJ JOB CLASS=A,MSGCLASS=O,MSGLEVEL=(1,1),NOTIFY=&SYSUID,        
+//             TIME=(,5)                                                
+//************************************                                  
+//* EJEMPLO EJECUCION JOB BATCH      *                                  
+//************************************                                  
+//*                                                                     
+//STEP1    EXEC PGM=IDCAMS,COND=(8,LT)                                  
+//SYSPRINT DD SYSOUT=*                                                  
+//SYSIN    DD *                                                         
+     DELETE   KC03CBF.CURSOS.LISTA                                      
+     SET MAXCC=0                                                        
+//*                                                                     
+//************************************                                  
+//* EJECUCION PROGRAMA               *                                  
+//************************************                                  
+//STEP4    EXEC PGM=PGMLIS00                                            
+//STEPLIB  DD DSN=KC03CBF.CURSOS.PGMLIB,DISP=SHR                        
+//DDFILE1  DD DSN=KC03CBF.CURSOS.SUCURSAL,DISP=SHR                      
+//DDLISTA  DD DSN=KC03CBF.CURSOS.LISTA,DISP=(,CATLG,CATLG),             
+//          UNIT=SYSDA,VOL=SER=ZASWO1,                                  
+//          DCB=(LRECL=133,BLKSIZE=1330,RECFM=FBA),                     
+//          SPACE=(TRK,(1,1),RLSE)                                      
+//SYSOUT   DD SYSOUT=*                                                  
+//*SYSOUT   DD DSN=KC03CBF.SYSOUT,DISP=SHR                              
+//SYSUDUMP DD SYSOUT=*                                                  
+//SYSIN    DD SYSOUT=*                                                  
+//*                                                                     
+//                                                                      
+**************************** Bottom of Data ****************************

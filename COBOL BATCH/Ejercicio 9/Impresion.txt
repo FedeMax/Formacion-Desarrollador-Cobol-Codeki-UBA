@@ -1,0 +1,27 @@
+********************************* Top of Data **********************************
+   1     TOTAL CLIENTE/CUENTA POR SUCURSAL:  31- 8-2025    NUMERO PAGINA:  1    
+   1 DU 00000000216 OCTAVIO BENAVIDEZ              CASADO     M 02133  400.000,1
+   1 PE 00000000214 AGUSTIN DELFINO                SOLTERO    M 01345      555,5
+   1 CI 00000000010 PEQUI SWARTZ                   CASADO     F 01444   58.000,1
+   1 PA 00000000219 ANTONIA RATTIN                 VIUDO      F 03455    1.201,2
+   1 DU 00000000027 JULIAN ALBERTO FERRO           CASADO     M 01555   11.000,0
+   1 DU 00000000015 JULIAN ALBERTO FERRO           CASADO     F 01788        0,0
+   2 PE 00000000213 LUIS TUTTE                     SOLTERO    O 02333      101,1
+   2 PE 00000000222 AGUSTIN DELFINO                SOLTERO    M 01334    4.567,0
+   2 DU 00000000025 LUIS MIGUEL                    SOLTERO    M 03344        0,2
+   2 CI 00000000218 PEQUI SWARTZ                   CASADO     F 01555        0,1
+   3 DU 00000000001 JORGE ALBERTO PEREZ            SOLTERO    M 01555        0,0
+   3 PA 00000000223 FERMIN PEPINILLO               CASADO     M 01678        0,2
+   3 CI 00000000022 FLORENCIA ALVAREZ              CASADO     O 02888        0,0
+   5 PA 00000000224 BENEDICTO PAPA                 CASADO     M 02456        1,0
+   5 PE 00000000024 ROBERTA FLACK                  DIVORCIADO F 02666        0,1
+   5 PE 00000000221 LUIS TUTTE                     SOLTERO    M 02788        0,0
+   5 DU 00010000029 MARCELO TINELLI                SOLTERO    F 02888        1,1
+   6 DU 00000000217 MARCELA TINELLI                SOLTERO    F 03111        0,1
+   6 DU 00000000028 OCTAVIO BENAVIDEZ              CASADO     M 01222        0,1
+   6 PE 00000000220 CECILIA BELLLO                 DIVORCIADO F 01469        1,0
+   6 PE 00000000212 CECILIA BELLLO                 DIVORCIADO M 03567        0,0
+   6 PA 00200000021 SERGIO TENTONI                 VIUDO      F 03777        0,1
+   7 DU 00000000026 CRISTIAN CASTRO                SOLTERO    M 03768   10.000,0
+   7 PA 00200000096 TINA TURNER                    VIUDO      F 02998    3.300,1
+******************************** Bottom of Data ********************************
