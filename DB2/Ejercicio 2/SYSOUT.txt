@@ -1,0 +1,14 @@
+********************************* TOP OF DATA ********************************
+ACCESO DB2 OK                                                                 
+ACCESO DB2 OK                                                                 
+ACCESO DB2 OK                                                                 
+ACCESO DB2 OK                                                                 
+ACCESO DB2 OK                                                                 
+ACCESO DB2 OK                                                                 
+ACCESO DB2 OK                                                                 
+ACCESO DB2 OK                                                                 
+ACCESO DB2 OK                                                                 
+ACCESO DB2 OK                                                                 
+ACCESO DB2 OK                                                                 
+TOTAL GRABADOS: 011                                                           
+******************************** BOTTOM OF DATA ******************************

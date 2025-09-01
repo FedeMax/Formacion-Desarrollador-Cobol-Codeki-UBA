@@ -1,0 +1,21 @@
+********************************* TOP OF DATA ********************************
+NO SE ENCUENTRA EN LA BASE DE DATOS                                           
+INSERT OK  du 00037505667                                                     
+NO SE ENCUENTRA EN LA BASE DE DATOS                                           
+INSERT OK  du 00034104404                                                     
+ apellido falcon                                                              
+UPDATE OK     00034104404                                                     
+NO SE ENCUENTRA EN LA BASE DE DATOS                                           
+INSERT OK  du 00058936666                                                     
+UPDATE OK     00058936666                                                     
+UPDATE OK     00037505667                                                     
+NO SE ENCUENTRA EN LA BASE DE DATOS                                           
+INSERT OK  pa 00055555555                                                     
+--------------------------------------------------                            
+CANTIDAD DE REGISTROS LEIDOS      = 00007                                     
+CANTIDAD DE REGISTROS INSERTADOS  = 00004                                     
+CANTIDAD DE REGISTROS ERRONEOS    = 00000                                     
+CANTIDAD DE REGISTROS MODIFICADOS = 00003                                     
+--------------------------------------------------                            
+******************************** BOTTOM OF DATA ******************************
+                                                                              

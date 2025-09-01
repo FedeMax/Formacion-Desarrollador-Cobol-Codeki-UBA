@@ -1,0 +1,15 @@
+********************************* Top of Data ********************************
+             LISTADO DE CLIENTES                    FECHA 31-08-2025          
+          TCUEN  NCUEN  SUC.CUEN  NCLIEN  NOMYAPE                             
+          01     00123     01     010     AMASO FLORES JUANA INES             
+          02     00111     01     011     COMOMIRO ESTEBAN JOSE               
+          01     00133     02     013     PERENCIO CARMEN                     
+          01     00444     03     015     PAZ JUAN PEDRO                      
+          01     00666     03     016     PERA FEDERICO                       
+          01     00345     04     017     PACIENCIA NOEMI                     
+          01     00678     04     018     PRIETO JOSE                         
+          01     00222     05     020     PEREZ MARCELA                       
+          01     00899     05     021     PRUDENCIO MARIA JOSE                
+          01     00778     06     022     EQUINOCCIO JACINTO                  
+          01     00777     07     023     PEREYRA LUCENA MARTIN               
+******************************** Bottom of Data ******************************
