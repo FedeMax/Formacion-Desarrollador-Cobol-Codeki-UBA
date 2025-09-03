@@ -1,0 +1,54 @@
+***************************** Top of Data ******************************
+      **************************************                            
+      *         LAYOUT NOVEDAD CLIENTES    *                            
+      *                                    *                            
+      *      KC03XXX.CURSOS.NOVCLI         *                            
+      *      DONDE XXXX = NRO ALUMNO       *                            
+      *                                    *                            
+      *         LARGO  80 BYTES            *                            
+      *                                    *                            
+      **************************************                            
+                                                                        
+       01  WS-REG-NOVCLI.                                               
+      **************************************                            
+      * NOV-TIP-NOV = AL  ALTA CLIENTE  (TODOS LOS CAMPOS INFORMADOS)   
+      * NOV-TIP-NOV = CL  MODIF. NRO CLIENTE                            
+      * NOV-TIP-NOV = CN  MODIF. NOMBRE DEL CLIENTE                     
+      * NOV-TIP-NOV = CX  MODIF. SEXO                                   
+      **************************************                            
+           03  NOV-TIP-NOV         PIC X(02)    VALUE SPACES.           
+      * TIP-DOC = DU; PA; PE                                            
+           03  NOV-TIP-DOC         PIC X(02)    VALUE SPACES.           
+      * NRO-DOC = NUMERICO                                              
+           03  NOV-NRO-DOC         PIC 9(11)    VALUE ZEROS.            
+      ***************************************************************   
+      * CONDICION PARA GENERAR EL DATO DE PRUEBA: ALTAS                 
+      * -----------------------------------------------                 
+      * EL NOV-CLI-NRO DEBERá SER SEGúN ACUERDO EN EQUIPO.              
+      * EJEMPLO:                                                        
+      * - CADA ESTUDIANTE ELEGIRá UNA CENTENA Y TRABAJARá CON ELLA      
+      * - SI ELIJO CENTENA DEL 050: TENDRé ALTAS PARA LOS 9 CLIENTES    
+      * - 051 052 053...........059                                     
+      * - SI ELIJO CENTENA DEL 150: TENDRé ALTAS PARA LOS 9 CLIENTES    
+      * - 151 152 153...........159                                     
+      ***************************************************************   
+      * CLI-NRO = NUMERICO                                              
+           03  NOV-CLI-NRO         PIC 9(03)    VALUE ZEROS.            
+       * NOV-CLI-APELLIDO NOT EQUAL SPACES -                             
+       ***************************************************************   
+       * CONDICION PARA GENERAR EL DATO DE PRUEBA:                       
+       * LAS 7 PRIMERAS LETRAS DE NOV-CLI-APELLIDO SERáN LAS 7 PRAS      
+       * DEL APELLIDO DEL PROGRAMADOR QUE ARMA LOS DATOS DE PRUEBA       
+       * O EL APELLIDO COMPLETO SI FUERA MENOR A 7 LETRAS                
+       ***************************************************************   
+                                                                         
+            03  NOV-CLI-APELLIDO    PIC X(30)    VALUE SPACES.           
+                                                                         
+       * NOV-CLI-FECNAC FECHA LÓGICA (AAAAMMDD)                          
+            03  NOV-CLI-FENAC       PIC X(08)    VALUE SPACES.           
+       * NOV-CLI-SEXO = F; M; O                                          
+            03  NOV-CLI-SEXO        PIC X        VALUE SPACES.           
+            03  FILLER              PIC X(23)    VALUE SPACES.           
+                                                                         
+ **************************** Bottom of Data ****************************
+                                                                         

@@ -1,0 +1,16 @@
+********************************* TOP OF DATA **********************************
+ INSERT OK                                                                      
+ EL CLIENTE YA SE ENCUENTRA EN LA BASE  DE DATOS                                
+ INSERT OK                                                                      
+ INSERT OK                                                                      
+ INSERT OK                                                                      
+ MOD NROCLI OK                                                                  
+ERROR EN MODIFICACION NRO CLI                                                   
+ MOD SEXO   OK                                                                  
+ MOD NOMCLI OK                                                                  
+-----------------------------------------------                                 
+ TOTAL DE ALTAS LEIDAS            : 010                                         
+ TOTAL DE ALTAS CON ERROR         : 003                                         
+ TOTAL DE ALTAS GRABADAS EN TABLA : 004                                         
+-----------------------------------------------                                 
+******************************** BOTTOM OF DATA ********************************

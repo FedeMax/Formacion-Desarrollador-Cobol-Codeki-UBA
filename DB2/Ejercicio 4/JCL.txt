@@ -1,0 +1,32 @@
+***************************** Top of Data ******************************
+//KC03CBFD JOB CLASS=A,MSGCLASS=O,MSGLEVEL=(1,1),NOTIFY=&SYSUID         
+//JOBLIB  DD  DSN=DSND10.SDSNLOAD,DISP=SHR                              
+//************************************                                  
+//* EJEMPLO EJECUCION JOB BATCH      *                                  
+//************************************                                  
+//*                                                                     
+//STEP1    EXEC PGM=IDCAMS,COND=(8,LT)                                  
+//SYSPRINT DD SYSOUT=*                                                  
+//SYSIN    DD *                                                         
+  DELETE   KC03CBF.CURSOS.SALIDA                                        
+  SET MAXCC=0                                                           
+//*                                                                     
+//STEP2    EXEC PGM=IKJEFT01,DYNAMNBR=20,COND=(4,LT)                    
+//SYSTSPRT DD SYSOUT=*                                                  
+//DDENTRA  DD DSN=KC03CBF.CURSOS.NOVECLIE,DISP=SHR                      
+//DDSALI   DD DSN=KC03CBF.CURSOS.SALIDA,DISP=(,CATLG,CATLG),            
+//          UNIT=SYSDA,VOL=SER=ZASWO1,                                  
+//          DCB=(LRECL=80,BLKSIZE=0,RECFM=FB),                          
+//          SPACE=(TRK,(1,1),RLSE)                                      
+//SYSOUT   DD SYSOUT=*                                                  
+//SYSTSIN  DD *                                                         
+  DSN SYSTEM(DBDG)                                                      
+  RUN  PROGRAM(PGMD2CBF) PLAN(CURSOCBF) +                               
+      LIB('KC03CBF.CURSOS.PGMLIB')                                      
+  END                                                                   
+//SYSPRINT DD SYSOUT=*                                                  
+//SYSUDUMP DD SYSOUT=*                                                  
+//SYSIN    DD *                                                         
+//*                                                                     
+//                                                                      
+**************************** Bottom of Data ****************************
